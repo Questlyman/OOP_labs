@@ -3,24 +3,24 @@
 
 TEST(test_01, basic_test_set)
 {
-    EXPECT_EQ(lab1("getout"), 3);
+    ASSERT_EQ(lab1("getout"), 3);
 }
 
 TEST(test_02, basic_test_set)
 {
-    EXPECT_EQ(lab1("i am g/r/ay"), 4);
+    ASSERT_EQ(lab1("i am g/r/ay"), 4);
 }
 
 TEST(test_03, basic_test_set)
 {
-    EXPECT_EQ(lab1("      "), 0);
+    ASSERT_EQ(lab1("      "), 0);
 }
 
 TEST(test_04, basic_test_set)
 {
-    EXPECT_FALSE(only_letters_input("    hey rrtaaaahi3445"));
-    EXPECT_TRUE(only_letters_input("dslfjlkjs   dlfjkkjlkdsjfjkajkdlfahjkdrwoeiruqklmcnnmmzkjlifdsarrwer"));
-    EXPECT_TRUE(only_letters_input("  dslfjlkjsdlfjkk"));
+    ASSERT_FALSE(only_letters_input("    hey rrtaaaahi3445"));
+    ASSERT_TRUE(only_letters_input("dslfjlkjs   dlfjkkjlkdsjfjkajkdlfahjkdrwoeiruqklmcnnmmzkjlifdsarrwer"));
+    ASSERT_TRUE(only_letters_input("  dslfjlkjsdlfjkk"));
 }
 
 int main(int argc, char **argv) {

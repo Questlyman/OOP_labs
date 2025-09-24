@@ -18,8 +18,8 @@ int lab1(std::string line) {
 }
 
 bool only_letters_input(std::string s) {
-    for (int i=0; i<s.length(); i++){
-        if (!std::isalpha(s[i]) && s[i] != ' '){
+    for (int i = 0; i < s.length(); i++) {
+        if (!std::islower(s[i]) && s[i] != ' ') {
             return false;
         }
     }
