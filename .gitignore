@@ -1,13 +1,6 @@
 /build
 /.vscode
-/lab1/build
-/lab2/build
-/lab3/build
-/lab4/build
-/lab5/build
-/lab6/build
-/lab7/build
-/lab8/build
-/lab9/build
+/*/build
+/*/vscode
 main.exe
 tempCodeRunnerFile.cpp
